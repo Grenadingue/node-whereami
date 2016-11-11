@@ -1,3 +1,5 @@
+const spawn = require('child_process').spawn;
+
 module.exports = function whereami() {
   return new Promise((fulfill, reject) => {
     const whereami = spawn(__dirname + '/whereami/whereami', ['--export-stdout']);
