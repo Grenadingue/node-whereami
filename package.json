@@ -4,6 +4,7 @@
   "description": "A node.js wrapper of Grenadingue/whereami",
   "main": "index.js",
   "scripts": {
+    "install": "git submodule update --init --recursive",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Grenadingue/node-whereami/issues"
   },
-  "homepage": "https://github.com/Grenadingue/node-whereami#readme"
+  "homepage": "https://github.com/Grenadingue/node-whereami#readme",
+  "jshintConfig": {
+    "esversion": 6
+  }
 }
