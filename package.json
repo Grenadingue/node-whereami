@@ -4,7 +4,7 @@
   "description": "A node.js wrapper of Grenadingue/whereami",
   "main": "index.js",
   "scripts": {
-    "install": "git submodule update --init --recursive && git submodule foreach git pull origin master",
+    "install": "git submodule update --init --recursive",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
